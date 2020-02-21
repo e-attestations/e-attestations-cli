@@ -1,4 +1,6 @@
-# e-Attestations Python scripts collection
+# e-Attestations CLI
+
+A set of Python scripts that build the e-Attestations CLI
 
 ```python
 '''

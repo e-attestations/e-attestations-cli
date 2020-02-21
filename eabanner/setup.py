@@ -4,11 +4,11 @@
 import os
 from setuptools import setup, find_packages
 
-NAME = 'ea-address'
+NAME = 'eabanner'
 VERSION = '1.0'
 URL = 'https://github.com/eattestations/ea-python-scripts',
 SHORT_DESCRIPTION = """
-e-Attestations' address cli utility.""".strip()
+e-Attestations' display banner utility.""".strip()
 
 
 def read_file(path):
@@ -26,7 +26,6 @@ setup(
     'e-Attestations command line interface cli python banner interactive bash tool',
     author='Vincent DAGOURY',
     author_email='v.dagoury@e-attestations.com',
-    maintainer='Vincent DAGOURY',
     license='BSD',
     python_requires='!=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
     classifiers=[
@@ -49,5 +48,5 @@ setup(
         'Topic :: Terminals',
     ],
     packages=find_packages(),
-    install_requires=['Click', 'requests', 'colorama', 'eabanner'],
-    entry_points={"console_scripts": ["ea-address=address:cli"]})
+    install_requires=['colorama'],
+    entry_points={"console_scripts": ["eabanner = eabanner:colored"]})

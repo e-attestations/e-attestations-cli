@@ -1,0 +1,135 @@
+{
+  "type": "FeatureCollection",
+  "version": "draft",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.316664,
+          48.868921
+        ]
+      },
+      "properties": {
+        "label": "Rue de l'Elys\u00e9e 75008 Paris",
+        "score": 0.5808668359870147,
+        "id": "75108_3190",
+        "type": "street",
+        "x": 649873.53,
+        "y": 6863427.23,
+        "importance": 0.5049198112417776,
+        "name": "Rue de l'Elys\u00e9e",
+        "postcode": "75008",
+        "citycode": "75108",
+        "city": "Paris",
+        "district": "Paris 8e Arrondissement",
+        "context": "75, Paris, \u00cele-de-France"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.386009,
+          48.869068
+        ]
+      },
+      "properties": {
+        "label": "Rue de l'Elys\u00e9e M\u00e9nilmontant 75020 Paris",
+        "score": 0.41018152807588115,
+        "id": "75120_3192",
+        "type": "street",
+        "x": 654960.39,
+        "y": 6863401.82,
+        "importance": 0.5889198857577701,
+        "name": "Rue de l'Elys\u00e9e M\u00e9nilmontant",
+        "postcode": "75020",
+        "citycode": "75120",
+        "city": "Paris",
+        "district": "Paris 20e Arrondissement",
+        "context": "75, Paris, \u00cele-de-France"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.336185,
+          48.862728
+        ]
+      },
+      "properties": {
+        "label": "Place du Palais Royal 75001 Paris",
+        "score": 0.3695031396574084,
+        "id": "75101_7010",
+        "type": "street",
+        "x": 651299.69,
+        "y": 6862726.42,
+        "importance": 0.4645345362314921,
+        "name": "Place du Palais Royal",
+        "postcode": "75001",
+        "citycode": "75101",
+        "city": "Paris",
+        "district": "Paris 1er Arrondissement",
+        "context": "75, Paris, \u00cele-de-France"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.316523,
+          48.86622
+        ]
+      },
+      "properties": {
+        "label": "Avenue des Champs Elys\u00e9es 75008 Paris",
+        "score": 0.36886830819901323,
+        "id": "75108_1733",
+        "type": "street",
+        "x": 649860.62,
+        "y": 6863126.95,
+        "importance": 0.5049198112417776,
+        "name": "Avenue des Champs Elys\u00e9es",
+        "postcode": "75008",
+        "citycode": "75108",
+        "city": "Paris",
+        "district": "Paris 8e Arrondissement",
+        "context": "75, Paris, \u00cele-de-France"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.390407,
+          48.876027
+        ]
+      },
+      "properties": {
+        "label": "Cit\u00e9 du Palais Royal de Belleville 75019 Paris",
+        "score": 0.36240983460758064,
+        "id": "75119_7011",
+        "type": "street",
+        "x": 655288.98,
+        "y": 6864173.09,
+        "importance": 0.5865081806833872,
+        "name": "Cit\u00e9 du Palais Royal de Belleville",
+        "postcode": "75019",
+        "citycode": "75119",
+        "city": "Paris",
+        "district": "Paris 19e Arrondissement",
+        "context": "75, Paris, \u00cele-de-France"
+      }
+    }
+  ],
+  "attribution": "BAN",
+  "licence": "ETALAB-2.0",
+  "query": "Palais de l'Elys\u00e9e, PARIS",
+  "limit": 5
+}

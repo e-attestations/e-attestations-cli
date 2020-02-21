@@ -1,2 +1,14 @@
 .venv
 __pycache__
+*.pyc
+*.egg-info
+.coverage
+.tox/
+MANIFEST
+dist
+tags
+virtualenv
+build
+
+# PyCharm
+.idea

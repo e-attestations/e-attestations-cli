@@ -4,17 +4,15 @@
 import os
 from setuptools import setup, find_packages
 
-NAME = 'ea-address'
+NAME = 'hellofire'
 VERSION = '1.0'
-URL = 'https://github.com/eattestations/ea-python-scripts',
+URL='https://github.com/eattestations/ea-python-scripts',
 SHORT_DESCRIPTION = """
-e-Attestations' address cli utility.""".strip()
-
+e-Attestations' hello world using fire.""".strip()
 
 def read_file(path):
     with open(os.path.join(os.path.dirname(__file__), path)) as fp:
         return fp.read()
-
 
 setup(
     name=NAME,
@@ -22,13 +20,16 @@ setup(
     url=URL,
     description=SHORT_DESCRIPTION,
     long_description=read_file('README.md'),
+    
     keywords=
-    'e-Attestations command line interface cli python banner interactive bash tool',
+    'e-Attestations command line interface cli python fire interactive bash tool',
+    
     author='Vincent DAGOURY',
     author_email='v.dagoury@e-attestations.com',
-    maintainer='Vincent DAGOURY',
     license='BSD',
+    
     python_requires='!=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
+    
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',
@@ -49,5 +50,10 @@ setup(
         'Topic :: Terminals',
     ],
     packages=find_packages(),
-    install_requires=['Click', 'requests', 'colorama', 'eabanner'],
-    entry_points={"console_scripts": ["ea-address=address:cli"]})
+    install_requires=['fire'],
+    entry_points={
+        "console_scripts": [
+            "hellofire = hellofire.core:hellofire"
+        ]
+    }
+    )

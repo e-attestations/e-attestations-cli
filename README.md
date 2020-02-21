@@ -37,15 +37,6 @@ If you want to learn more about this practicies :
 
 [Check out this article](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
-
-## Upgrade your setuptools belt
-
-```sh
-(.venv) $ deactivate
-$ source 
-
-```
-
 ## Develop
 
 First, Go to the directory/module of your choice.

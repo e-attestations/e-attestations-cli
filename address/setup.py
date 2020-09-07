@@ -4,9 +4,9 @@
 import os
 from setuptools import setup, find_packages
 
-NAME = 'ea-address'
+NAME = 'eaddress'
 VERSION = '1.0'
-URL = 'https://github.com/eattestations/ea-python-scripts',
+URL = 'https://github.com/eattestations/e-attestations-cli.git',
 SHORT_DESCRIPTION = """
 e-Attestations' address cli utility.""".strip()
 
@@ -50,4 +50,4 @@ setup(
     ],
     packages=find_packages(),
     install_requires=['Click', 'requests', 'colorama', 'eabanner'],
-    entry_points={"console_scripts": ["ea-address=address:cli"]})
+    entry_points={"console_scripts": ["eaddress=address:cli"]})
